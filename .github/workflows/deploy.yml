@@ -5,7 +5,7 @@ name: deploy
 # main 브랜치에 push 혹은 pull request가 있을 때 워크플로우를 실행
 on:
   push:  
-    branches: [ main ] 
+    branches: [ main ]  
   pull_request:
     branches: [ main ]  
 
